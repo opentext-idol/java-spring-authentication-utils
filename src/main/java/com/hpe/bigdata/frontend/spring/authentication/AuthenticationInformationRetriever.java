@@ -11,7 +11,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import java.security.Principal;
 
 /**
- * Utility class wrapping access to {@link SecurityContextHolder#getContext()#getAuthentication()} for ease of loose coupling
+ * Utility class wrapping access to {@link SecurityContextHolder#getContext()} for ease of loose coupling
  *
  * @param <A> expected session authentication implementation type
  * @param <P> expected session principal implementation type
