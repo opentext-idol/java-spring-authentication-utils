@@ -17,11 +17,11 @@
 
     <name>IDOL Spring Authentication Utilities</name>
     <description>Utility classes to help use spring authentication</description>
-    <url>https://github.com/hpe-idol/java-spring-authentication-utils</url>
+    <url>https://github.com/microfocus-idol/java-spring-authentication-utils</url>
 
     <organization>
-        <name>Hewlett Packard Enterprise Development Company, L.P.</name>
-        <url>http://www.hpe.com/</url>
+        <name>Micro Focus International plc.</name>
+        <url>http://www.microfocus.com/</url>
     </organization>
 
     <inceptionYear>2016</inceptionYear>
@@ -36,27 +36,21 @@
     <developers>
         <developer>
             <name>Ivo Miller</name>
-            <email>ivo.miller@hpe.com</email>
-            <organization>HPE</organization>
-            <organizationUrl>http://www.hpe.com</organizationUrl>
         </developer>
         <developer>
             <name>Will Byrne</name>
-            <email>will.byrne@hpe.com</email>
-            <organization>Hewlett-Packard Enterprise</organization>
-            <organizationUrl>http://www.hpe.com</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:hpe-idol/java-spring-authentication-utils.git</connection>
-        <developerConnection>scm:git:git@github.com:hpe-idol/java-spring-authentication-utils.git</developerConnection>
-        <url>git@github.com:hpe-idol/java-spring-authentication-utils.git</url>
+        <connection>scm:git:git@github.com:microfocus-idol/java-spring-authentication-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:microfocus-idol/java-spring-authentication-utils.git</developerConnection>
+        <url>git@github.com:microfocus-idol/java-spring-authentication-utils.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/hpe-idol/java-spring-authentication-utils/issues</url>
+        <url>https://github.com/microfocus-idol/java-spring-authentication-utils/issues</url>
     </issueManagement>
 
     <dependencies>
