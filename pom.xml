@@ -17,7 +17,7 @@
 
     <name>IDOL Spring Authentication Utilities</name>
     <description>Utility classes to help use spring authentication</description>
-    <url>https://github.com/microfocus-idol/java-spring-authentication-utils</url>
+    <url>https://github.com/opentext-idol/java-spring-authentication-utils</url>
 
     <organization>
         <name>OpenText</name>
@@ -43,14 +43,14 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:microfocus-idol/java-spring-authentication-utils.git</connection>
-        <developerConnection>scm:git:git@github.com:microfocus-idol/java-spring-authentication-utils.git</developerConnection>
-        <url>git@github.com:microfocus-idol/java-spring-authentication-utils.git</url>
+        <connection>scm:git:git@github.com:opentext-idol/java-spring-authentication-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:opentext-idol/java-spring-authentication-utils.git</developerConnection>
+        <url>git@github.com:opentext-idol/java-spring-authentication-utils.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/microfocus-idol/java-spring-authentication-utils/issues</url>
+        <url>https://github.com/opentext-idol/java-spring-authentication-utils/issues</url>
     </issueManagement>
 
     <dependencies>
