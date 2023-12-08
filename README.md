@@ -9,7 +9,7 @@ java-spring-authentication-utils is available from the central Maven repository.
     <dependency>
         <groupId>com.hp.bigdata.frontend</groupId>
         <artifactId>spring-authentication-utils</artifactId>
-        <version>0.2.0</version>
+        <version>1.0.0</version>
     </dependency>
 
 ## License
