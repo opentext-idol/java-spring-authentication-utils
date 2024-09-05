@@ -6,12 +6,6 @@ Utility classes to help use spring authentication.
 
 java-spring-authentication-utils is available from the central Maven repository.
 
-    <dependency>
-        <groupId>com.hp.bigdata.frontend</groupId>
-        <artifactId>spring-authentication-utils</artifactId>
-        <version>1.2.0-SNAPSHOT</version>
-    </dependency>
-
 ## License
 
 Copyright 2016-2018 OpenText or one of its affiliates.
