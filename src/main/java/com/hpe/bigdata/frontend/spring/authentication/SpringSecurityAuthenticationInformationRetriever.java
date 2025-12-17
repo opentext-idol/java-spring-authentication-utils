@@ -17,7 +17,8 @@ public class SpringSecurityAuthenticationInformationRetriever<A extends Authenti
 
     @Override
     public A getAuthentication() {
-        return authenticationClass.cast(SecurityContextHolder.getContext().getAuthentication());
+        final Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        return authenticationClass.isInstance(auth) ? authenticationClass.cast(auth) : null;
     }
 
     @Override

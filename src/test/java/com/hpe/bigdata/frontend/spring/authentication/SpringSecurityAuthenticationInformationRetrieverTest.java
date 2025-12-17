@@ -27,6 +27,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import java.security.Principal;
 
 import static org.hamcrest.core.Is.is;
+import static org.hamcrest.core.IsNull.nullValue;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
@@ -70,6 +71,18 @@ public class SpringSecurityAuthenticationInformationRetrieverTest {
     @Test
     public void getAuthentication() {
         assertThat(informationRetriever.getAuthentication(), is(authentication));
+    }
+
+    @Test
+    public void getAuthentication_null() {
+        when(securityContext.getAuthentication()).thenReturn(null);
+        assertThat(informationRetriever.getAuthentication(), nullValue());
+    }
+
+    @Test
+    public void getAuthentication_wrongType() {
+        when(securityContext.getAuthentication()).thenReturn(otherAuthentication);
+        assertThat(informationRetriever.getAuthentication(), nullValue());
     }
 
     @Test
